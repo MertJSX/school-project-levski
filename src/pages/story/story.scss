@@ -1,0 +1,52 @@
+.storyPage {
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        margin: 10px;
+    }
+    .content {
+        justify-content: center;
+        align-items: center;
+        animation-name: shadowAnim;
+        animation-duration: 4s;
+        h1 {
+          text-align: center;
+          font-size: 55px;
+          text-shadow: 4px 4px black;
+        }
+        h2 {
+          display: block;
+          margin: auto;
+          text-align: center;
+          font-size: 30px;
+          max-width: 1400px;
+        }
+      }
+      .story-img {
+        width: 30vw;
+        max-width: 400px;
+        max-height: 500px;
+        height: 65vh;
+        border-radius: 25px;
+        display: block;
+        border: 2px solid #2fb3b3;
+        //margin: auto;
+      }
+      .story-img-w {
+        width: 35vw;
+        max-width: 600px;
+        max-height: 400px;
+        height: 55vh;
+        border-radius: 25px;
+        display: block;
+        border: 2px solid #2fb3b3;
+        //margin: auto;
+      }
+
+      .center-img {
+        margin: auto;
+      }
+
+}
