@@ -2,6 +2,8 @@
     .content {
         justify-content: center;
         align-items: center;
+        animation-name: shadowAnim;
+        animation-duration: 3s;
         h1 {
             text-align: center;
             font-size: 55px;
