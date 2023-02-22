@@ -1,0 +1,43 @@
+.aboutPage-m {
+    display: none;
+    .content {
+      justify-content: center;
+      align-items: center;
+      animation-name: shadowAnim;
+      animation-duration: 3s;
+      h1 {
+        text-align: center;
+        font-size: 40px;
+        text-shadow: 4px 4px black;
+      }
+      h2 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        max-width: 1000px;
+      }
+    }
+  
+    .about-img {
+      width: 100%;
+      max-width: 300px;
+      max-height: 320px;
+      height: 65vh;
+      border-radius: 455px;
+      display: block;
+      margin: auto;
+      animation-name: shadowAnim;
+      animation-duration: 3s;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .aboutPage-m {
+        display: block;
+    }
+    .aboutPage {
+        display: none;
+    }
+  }
+  

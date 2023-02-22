@@ -2,6 +2,7 @@
     * {
         color: white;
     }
+    margin-bottom: 10px;
     ul {
         list-style: none;
         display: flex;
@@ -20,6 +21,7 @@
             color: #21a7a5;
             &:hover {
                 background-color: transparent;
+                border: none;
             }
         }
         li {
@@ -47,18 +49,3 @@
         }
     }
 }
-
-@media only screen and (max-width: 600px) {
-    .ULNavComp {
-        ul {
-            li {
-                padding: 5px;
-                padding-inline: 15px;
-                font-size: 25px;
-            }
-            .icon {
-                font-size: 25px;
-            }
-        }
-    }
-  }
