@@ -1,27 +1,30 @@
 .homePage {
     .flex {
+        margin-top: 5%;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
         background-color: #349cae86;
+        //background-image: linear-gradient(to right,  #349caeeb, #76efeb51);
         animation-name: shadowAnim;
         animation-duration: 3s;
         h1 {
             text-align: center;
-            font-size: 75px;
+            font-size: 55px;
             text-shadow: 4px 4px black;
         }
         h2 {
             text-align: center;
             font-size: 25px;
+            word-wrap: break-word;
         }
     }
     .home-img {
-        width: 30vw;
-        min-width: 500px;
-        min-height: 500px;
-        height: 65vh;
+        width: 20vw;
+        min-width: 400px;
+        min-height: 450px;
+        height: 55vh;
         margin: 20px;
         border-radius: 455px;
     }
